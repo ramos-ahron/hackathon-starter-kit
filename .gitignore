@@ -1,0 +1,74 @@
+# ---------- Secrets ----------
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+backend/supabase/.env
+backend/supabase/.env.*
+!backend/supabase/.env.example
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---------- Node / Next.js ----------
+node_modules/
+.pnpm-store/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.turbo/
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Testing / coverage (JS + Python) ----------
+coverage/
+playwright-report/
+test-results/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.hypothesis/
+coverage.xml
+*.lcov
+
+# ---------- Python / FastAPI (anchored to avoid eating web code) ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+backend/build/
+backend/dist/
+backend/wheels/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.ipynb_checkpoints
+tempCodeRunnerFile.py
+
+# ---------- Supabase ----------
+backend/supabase/.temp/
+backend/supabase/.branches/
+
+# ---------- Misc ----------
+*.log
+.cache
+
+# ---------- Project-specific ----------
+frontend/AGENTS.md
