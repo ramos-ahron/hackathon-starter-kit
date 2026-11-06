@@ -1,6 +1,7 @@
 # Hackathon starter
 
-A Next.js web app (Vercel), a FastAPI API (Fly.io) and a Supabase project, already connected. Follow the sections below from top to bottom. At the end you have it running locally and deployed.
+A Next.js web app (Vercel), a FastAPI API (Fly.io) and a Supabase project, already connected. Follow the sections below from top to bottom.
+At the end you have it running locally and deployed.
 
 ## Layout
 
